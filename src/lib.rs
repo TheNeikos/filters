@@ -79,3 +79,4 @@ pub mod filter;
 pub mod impl_traits;
 pub mod ops;
 
+pub use filter::Filter;

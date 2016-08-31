@@ -261,7 +261,7 @@ pub trait Filter<N> {
 
 #[cfg(test)]
 mod test {
-    use filter::Filter;
+    use Filter;
     use ops::and::And;
     use ops::bool::Bool;
 
@@ -389,7 +389,7 @@ mod test {
 #[cfg(test)]
 #[cfg(feature = "unstable-filter-as-fn")]
 mod test_unstable {
-    use filter::Filter;
+    use Filter;
     use ops::bool::Bool;
 
     #[test]
